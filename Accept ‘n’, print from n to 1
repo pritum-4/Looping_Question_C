@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    //2.Accept ‘n’, print from n to 1
+    printf("Enter the number till n from 1\n");
+    int n;
+    scanf("%d",&n);
+    for(int i=n;i>=1;i--){
+        printf("%d ",i);
+    }
+    return 0;
+}
