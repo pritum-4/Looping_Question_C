@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    printf("Enter x\n");
+    int x,n;
+    scanf("%d",&x);
+    printf("Enter n\n");
+    scanf("%d",&n);
+    int pow=1;
+    for(int i=0;i<n;i++)
+    {
+      pow*=x;
+    } 
+    printf("value of %d^%d = %d",x,n,pow);
+    return 0;
+}
