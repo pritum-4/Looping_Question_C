@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main() {
+    //3.Accept ‘m’ and ‘n’, print from ‘m’ to ‘n’, forward and reverse
+    printf("Enter m\n");
+    int m;
+    scanf("%d",&m);
+    printf("Enter n\n");
+    int n;
+    scanf("%d",&n);
+    if(m<n)
+    {
+        printf("Printing from m to n\n");
+        for(int i=m;i<=n;i++){
+            printf("%d ",i);
+        }
+        printf("\n");
+    }
+    else{
+        printf("Printing from n to m\n");
+        for(int i=n;i<=m;i++){
+            printf("%d ",i);
+        }
+        printf("\n");
+    }
+    if(m>n){
+        printf("Printing from m to n\n");
+         for(int i=m;i>=n;i--){
+            printf("%d ",i);
+        }
+    }
+    else{
+        printf("Printing from n to m\n");
+         for(int i=n;i>=m;i--){
+            printf("%d ",i);
+        }
+    }
+    
+    return 0;
+}
