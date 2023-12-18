@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    //10.	Accept a number ‘n’
+    // c.	print all factors of n
+    printf("Enter a number to check if it is prime\n");
+    int n;
+    scanf("%d",&n);
+     printf("Generating all factors of n\n");
+    for(int k=1;k<=n;k++)
+    {
+        if(n%k==0)
+        {
+            printf("%d ",k);
+        }
+    }
+    return 0;
+}
